@@ -1,0 +1,14 @@
+# 排除所有 .code-workspace 檔案
+*.code-workspace
+
+# 排除 VSCode 的本地設定
+.vscode/
+
+# 排除虛擬環境
+venv/
+.env/
+
+# 排除快取檔、暫存檔
+__pycache__/
+*.pyc
+.DS_Store
