@@ -1,0 +1,58 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Oct 23 10:16:59 2018
+
+@author: USER
+"""
+JSON（JavaScript Object Notation）
+
+JSON 字串可以包含陣列 Array 資料或者是物件 Object 資料
+    陣列以 [ ] 存資料
+    物件以 { } 存資料
+    name / value 是成對的，中間透過 (:) 來區隔
+
+物件或陣列的 value 值可以如下:
+
+    數字 (整數或浮點數)
+    字串 (請用 “” 括號)
+    布林函數 (boolean) (true 或 false)
+    陣列 (請用 [ ] )
+    物件 (請用 { } )
+    NULL
+
+
+ex1:
+
+{"subject":"Math","score":80}
+key-value就是指一個鍵值(key)對應一個值(value)，
+subject這個key有個值叫Math
+score它的值為80
+
+ex2:
+[0,4,5,2,7,8,3]
+
+ex3:
+[{"name":"Tom","lastname":"Chen","report":[{"subject":"Math","score":80},{"subject":"English","score":90}]},
+{"name":"Amy","lastname":"Lin","report":[{"subject":"Math","score":86},{"subject":"English","score":88}]}]
+
+ex4.
+{
+  "orderID": 12345,
+  "shopperName": "John Smith",
+  "shopperEmail": "johnsmith@example.com",
+  "contents": [
+    {
+      "productID": 34,
+      "productName": "SuperWidget",
+      "quantity": 1
+    },
+    {
+      "productID": 56,
+      "productName": "WonderWidget",
+      "quantity": 3
+    }
+  ],
+  "orderCompleted": true
+}
+
+https://jsoneditoronline.org/
